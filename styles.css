@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(222, 162, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all .5s ease;
+}
+.box-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all .5s ease;
+}
+.box-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all .5s ease;
+}
+.box-4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: all .5s ease;
+}
+
+/* animations */
+
+.box-1:hover{
+    transform: rotate(90deg);
+}
+.box-2:hover{
+    transform: rotate(180deg);
+}
+.box-3:hover{
+    transform: rotate(270deg);
+}
+.box-4:hover{
+    transform: rotate(360deg);
+}
+
